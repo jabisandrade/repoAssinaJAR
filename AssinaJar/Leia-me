@@ -1,0 +1,41 @@
+
+--------------------------------------------------
+Informações sobre o Programa
+--------------------------------------------------
+
+Este programa realiza a assinatura de diversos arquivos .jar disponiveis na pasta de entrada da aplicação 
+usando o utilitário jarsigner do JDK e o certificado digital do dispositivo criptografico A3 instalado.
+Os arquivos assinados são disponibilizados na pasta de saida da aplicação.
+
+
+--------------------------------------------------
+Pré-Requisitos 
+--------------------------------------------------
+
+- Sistema operacional Windows XP, Windows 7 ou Ubuntu;
+
+- Possuir o Java Development Kit (JDK) no diretorio da aplicação com o nome de pasta "java7"
+
+- Reapontar o executavel do java dos arquivos AssinaJAR.sh (Ubuntu) ou AssinaJAR.bat (Windows) para o diretorio do java da  pasta da aplicação.
+
+- Dispositivo criptográfico instalado, segue os modelos compatíveis:
+	 Token Verde (Sofware de gerenciamento/driver PRONOVA/ePass);
+	 Token Azul Escuro (Sofware de gerenciamento/driver SafeNet Alladin/eToken Pro);
+
+
+--------------------------------------------------
+Configuração/ Utilização
+--------------------------------------------------
+
+Na pasta do utilitário "/home/entrada/" colocar os arquivos a serem assinados e apos a execução do programa através do arquivo AssinaJAR.sh (Ubuntu) ou AssinaJAR.bat (Windows), obter os arquivos assinados na pasta "/home/saida/"
+
+
+--------------------------------------------------
+Informações / Dúvidas
+--------------------------------------------------
+
+Jabis Andrade
+Tel.: #71 2155
+Psi.: jabis.andrade@sim.serpro.gov.br
+
+
